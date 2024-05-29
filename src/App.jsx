@@ -103,6 +103,7 @@ function App() {
 
       <button style={buttonStyle} onClick={() => CompletedList()} >Completed Task   :- ( {comCount} )</button>
       <button style={buttonStyle}  onClick={() => AllList()} >All Todo </button>
+      <p>Click On Todo if Complete</p>
     </>
   );
 }
