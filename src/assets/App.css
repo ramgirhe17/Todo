@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#card{
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vw;
+  height: 5vh;
+  margin-bottom: 20px;
+}
+button{
+  width: 100px;
+  height: 20px;
+  margin-right: 5px;
+  /* background-color: aquamarine; */
+}
+
+button:hover {
+  background-color: rgb(170, 236, 46);
+}
+
+.radio{
+  height: 10px;
+  width: 20px;
+}
+
+.toggle{
+  display: none;
+}
+.toggle:checked {
+  display: block; /* Display the content when the checkbox is checked */
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  /* margin-bottom: 15px; Example margin */
+}
